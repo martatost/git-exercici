@@ -1,14 +1,30 @@
-Git-exercici
+﻿Git-exercici
 
 El teu primer repositori Git (linea comandes):
 Crear un nou repositori al teu GitHub. -> fet, creat a la web
 Crear una nova carpeta al teu PC. -> fet, creada carpetat exercici1
 Clonar el repositori a aquesta carpeta del teu ordinador (git clone “url/to/repository”). -> fet "git clone https://github.com/martatost/git-exercici.git"
-Crear un fitxer de text (.txt) en aquesta carpeta. -> fet, aquest fitxer Git-exercici.
-Fer un commit i push per a pujar els canvis al repositori remot de GitHub.
 
+Crear un fitxer de text (.txt) en aquesta carpeta. -> fet, aquest fitxer Git-exercici. 
+Fer un commit i push per a pujar els canvis al repositori remot de GitHub. -> fet, 
+			1)faig un git status i veig que el fitxer no està dins els fitxers per fer commit.
+			2)faig un git add exercici1.txt
+			3)al tornar a fer el git status veig que ja apareix el nou fitxer exercici1.txt preparat per fer un commit
+			4)git commit -m "My first commit"
+			5)git status. No hi ha cap commit pendent
+			6)git push.
+
+
+Treballar amb branques:
+Crear una branca anomenada “branch1”. -> fet, git branch branch1.
+Modifica el text del fitxer des d’aquesta branca.-> comprovem a quina branca som, amb git branch. Veiem que sóm a master.
+						  Passem a branch1. git checkout branch1.
+						  Modifiquem el aquest fitxer exercici1.txt.
+Fes Commit i Push dels canvis. (Si mires al GitHub, hauries de veure que tens dues branques) -> fet git commit -m "My first commit in branch1"
+												git push
 
 Torna a la branca “master”. -> fet checkout master
 Fes un altre canvi al document i fer commit i push. -> fet he afegit la ultima part de l'exercici. Faig git add, git commit i git push.
 Des d’aquesta fer merge dels canvis de la “branch1” a la teva branca “master”.
+			
 

@@ -1,4 +1,4 @@
-Git-exercici
+﻿Git-exercici
 
 El teu primer repositori Git (linea comandes):
 Crear un nou repositori al teu GitHub. -> fet, creat a la web
@@ -16,8 +16,12 @@ Fer un commit i push per a pujar els canvis al repositori remot de GitHub. -> fe
 
 Treballar amb branques:
 Crear una branca anomenada “branch1”. -> fet, git branch branch1.
-Modifica el text del fitxer des d’aquesta branca.
-Fes Commit i Push dels canvis. (Si mires al GitHub, hauries de veure que tens dues branques)
+Modifica el text del fitxer des d’aquesta branca.-> comprovem a quina branca som, amb git branch. Veiem que sóm a master.
+						  Passem a branch1. git checkout branch1.
+						  Modifiquem el aquest fitxer exercici1.txt.
+Fes Commit i Push dels canvis. (Si mires al GitHub, hauries de veure que tens dues branques) -> fet git commit -m "My first commit in branch1"
+												git push
+
 Torna a la branca “master”.
 Fes un altre canvi al document i fer commit i push.
 Des d’aquesta fer merge dels canvis de la “branch1” a la teva branca “master”.

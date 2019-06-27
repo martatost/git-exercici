@@ -6,3 +6,9 @@ Crear una nova carpeta al teu PC. -> fet, creada carpetat exercici1
 Clonar el repositori a aquesta carpeta del teu ordinador (git clone “url/to/repository”). -> fet "git clone https://github.com/martatost/git-exercici.git"
 Crear un fitxer de text (.txt) en aquesta carpeta. -> fet, aquest fitxer Git-exercici.
 Fer un commit i push per a pujar els canvis al repositori remot de GitHub.
+
+
+Torna a la branca “master”. -> fet checkout master
+Fes un altre canvi al document i fer commit i push. -> fet he afegit la ultima part de l'exercici. Faig git add, git commit i git push.
+Des d’aquesta fer merge dels canvis de la “branch1” a la teva branca “master”.
+
